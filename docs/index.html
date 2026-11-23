@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151515">
+  <meta name="description" content="Aloid Games, estudio indie de Barcelona. Descubre Wordhood: encuentra palabras, genera recursos y haz crecer tu ciudad.">
+  <meta property="og:title" content="Aloid Games — Juegos con algo propio">
+  <meta property="og:description" content="Descubre Wordhood. Una ciudad empieza con una palabra.">
+  <meta property="og:type" content="website">
+  <title>Aloid Games — Wordhood</title>
+  <link rel="icon" href="assets/aloid-color.svg" type="image/svg+xml">
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="themes.css">
+  <script src="config.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="header">
+    <a href="#inicio" class="brand" aria-label="Aloid Games, inicio"><img class="logo-on-dark" src="assets/aloid-white.svg" alt="Aloid Games" width="80" height="80"><img class="logo-on-light" src="assets/aloid-color.svg" alt="Aloid Games" width="80" height="80"></a>
+    <nav aria-label="Navegación principal"><a href="#wordhood">Wordhood</a><a href="#estudio">El estudio</a><a href="#comunidad">Comunidad <span aria-hidden="true">↗</span></a></nav>
+    <div class="header-tools"><label class="theme-control" for="theme-select"><span>Tema</span><select id="theme-select" aria-label="Tema de la web"><option value="auto">Automático</option><option value="light">Claro</option><option value="dark">Oscuro</option></select></label></div>
+  </header>
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <img class="hero-art" src="assets/wordhood-hero.png" alt="Ilustración de Wordhood: un rascacielos entre nubes de pixel art" fetchpriority="high" width="3840" height="1240">
+      <div class="hero-shade"></div>
+      <div class="hero-content"><p class="eyebrow"><span class="dot"></span> NUESTRO JUEGO EN DESARROLLO</p><p class="game-name">Wordhood</p><h1 id="hero-title">Una ciudad empieza<br>con una palabra.</h1><p class="hero-description">Encuentra palabras. Genera recursos.<br>Haz crecer una ciudad que sientas tuya.</p><a class="button light" href="#wordhood">Descubre Wordhood <span aria-hidden="true">↘</span></a></div>
+      <div class="hero-bottom"><span>SOPA DE LETRAS × GESTIÓN INCREMENTAL</span><a href="#wordhood" aria-label="Desplazarse a Wordhood">EXPLORAR <span aria-hidden="true">↓</span></a></div>
+    </section>
+    <section class="game-section section-pad" id="wordhood" aria-labelledby="game-title">
+      <div class="section-label"><span>01 / WORDHOOD</span><span class="status">EN DESARROLLO</span></div>
+      <div class="game-intro"><h2 id="game-title">Encuentra palabras.<br><span>Construye posibilidades.</span></h2><div><p>Una sopa de letras con mucho más entre líneas. En Wordhood, cada palabra que encuentras se convierte en recursos para hacer crecer y cuidar tu ciudad.</p><p>La satisfacción de resolver un tablero se une al placer de ver cómo tu pequeño mundo sigue creciendo.</p><a class="text-link" href="#capturas">Echa un vistazo al juego <span aria-hidden="true">↘</span></a></div></div>
+      <figure class="gameplay"><button class="image-button" data-image="assets/wordhood-partida.png" data-caption="Una partida de Wordhood" aria-label="Ampliar captura de una partida de Wordhood"><img src="assets/wordhood-partida.png" alt="Captura de Wordhood: tablero de letras, recursos y una ciudad isométrica" loading="lazy" width="1920" height="1080"><span class="expand" aria-hidden="true">↗</span></button><figcaption><span>UN VISTAZO A WORDHOOD</span><span>Imágenes del juego en desarrollo. Su aspecto puede cambiar.</span></figcaption></figure>
+      <div class="steam-row"><p>El siguiente capítulo se está escribiendo.</p><a class="button dark" data-link="steam" aria-disabled="true">Steam · próximamente <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <section class="media-section section-pad" id="capturas" aria-labelledby="media-title"><div class="section-label"><span>02 / DENTRO DEL JUEGO</span><span>CAPTURAS</span></div><div class="media-heading"><h2 id="media-title">De las letras a la ciudad.</h2><p>Un pequeño vistazo al mundo que estamos creando.</p></div><div class="gallery"><figure><button class="image-button" data-image="assets/wordhood-tablero.png" data-caption="El tablero de Wordhood" aria-label="Ampliar captura del tablero"><img src="assets/wordhood-tablero.png" alt="Detalle del tablero de letras de Wordhood" width="1920" height="1080" loading="lazy"><span class="expand" aria-hidden="true">↗</span></button><figcaption><span>01</span> Todo empieza en el tablero.</figcaption></figure><figure><button class="image-button" data-image="assets/wordhood-ciudad.png" data-caption="La ciudad de Wordhood" aria-label="Ampliar captura de la ciudad"><img src="assets/wordhood-ciudad.png" alt="Vista de la ciudad en Wordhood" width="1920" height="1080" loading="lazy"><span class="expand" aria-hidden="true">↗</span></button><figcaption><span>02</span> Tu ciudad toma forma.</figcaption></figure></div><div class="trailer" id="trailer"><span class="play-symbol" aria-hidden="true">▷</span><div><h3>Más de Wordhood, en movimiento.</h3><p id="trailer-description">El tráiler llegará a este espacio.</p></div><a data-link="trailer" class="text-link" aria-disabled="true">Tráiler · próximamente <span aria-hidden="true">↗</span></a></div></section>
+    <section class="about section-pad" id="estudio" aria-labelledby="studio-title"><div class="section-label"><span>03 / EL ESTUDIO</span></div><div class="about-grid"><figure class="studio-photo"><img class="barcelona-photo" src="assets/barcelona.jpg" alt="Barcelona al anochecer, con sus edificios y el paseo iluminado" width="2481" height="1861" loading="lazy"><img class="studio-mascot" src="assets/aloid-mascota.svg" alt="La mascota de Aloid Games asoma detrás de los tejados de Barcelona" width="512" height="512" loading="lazy"><img class="barcelona-foreground" src="assets/barcelona.jpg" alt="" aria-hidden="true" width="2481" height="1861" loading="lazy"><figcaption>BARCELONA </figcaption></figure><div class="about-copy"><h2 class="lead" id="studio-title">Soy Alejandro.<br>Y esto es Aloid Games.</h2><p>Vivo en Barcelona y estudié desarrollo de videojuegos en 2021. Desde entonces he trabajado en proyectos para terceros. Ahora quiero dar forma a mis propias ideas.</p><p>Aloid Games nace de esas ganas de crear: empezar por un juego, construir una comunidad y, con el tiempo, hacer crecer el estudio.</p><p>Wordhood es parte de ese camino. Un juego que se me ocurrió cuando mi abuela me pidió un librito para hacer sopas de letras.</p><span class="signature">¡Nos vemos!</span></div></div></section>
+    <section class="community section-pad" id="comunidad" aria-labelledby="community-title"><div class="section-label"><span>04 / COMUNIDAD Y CONTACTO</span><span>SIGUE EL CAMINO</span></div><h2 id="community-title" class="visually-hidden">Comunidad y contacto</h2><div class="socials"><a data-link="discord" aria-disabled="true"><span class="social-top">HABLEMOS DE JUEGOS <span aria-hidden="true">↗</span></span><span class="social-name">Discord</span><span class="social-status">Enlace próximamente</span></a><a data-link="youtube" aria-disabled="true"><span class="social-top">DESDE DENTRO <span aria-hidden="true">↗</span></span><span class="social-name">YouTube</span><span class="social-status">Enlace próximamente</span></a><a data-link="email" aria-disabled="true"><span class="social-top">¿TIENES ALGO EN MENTE? <span aria-hidden="true">↗</span></span><span class="social-name">Hablemos.</span><span class="social-status">Contacto próximamente</span></a></div></section>
+  </main>
+  <footer><a class="back-to-top" href="#top">Volver arriba</a><div class="footer-bottom"><span>© <span id="year">2026</span> Aloid Games</span><span>Videojuegos independientes desde Barcelona.</span><a href="wordhood/privacy/">Privacidad de Wordhood</a></div></footer>
+  <dialog id="lightbox" aria-labelledby="lightbox-caption"><div class="lightbox-top"><p id="lightbox-caption"></p><button class="close-modal" aria-label="Cerrar captura">Cerrar ×</button></div><img id="lightbox-image" alt=""></dialog>
+</body>
+</html>
